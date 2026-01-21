@@ -30,6 +30,6 @@ PHP:8.1.34
 
 ## URL
 
-[開発環境](http://localhost)
+[開発環境](http://localhost/admin)
 
 [phpMyAdmin](http://localhost:8080)
