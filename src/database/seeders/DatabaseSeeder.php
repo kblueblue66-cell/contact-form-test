@@ -13,6 +13,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        // カテゴリを先に作る
+        $this->call(CategorySeeder::class);
+
+        //お問い合わせデータを35件
+        \App\Models\Contact::factory(35)->create();
     }
 }

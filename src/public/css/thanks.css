@@ -1,0 +1,52 @@
+body {
+    font-family: "Open Sans", "Noto Sans JP", sans-serif;
+    color: #8b7969;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.header__logo {
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.thanks__container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks__background {
+    position: absolute;
+    font-size: 12vw;
+    color: #f4f4f4;
+    font-weight: bold;
+    z-index: -1;
+    white-space: nowrap;
+}
+
+.thanks__content {
+    text-align: center;
+}
+
+.thanks__text {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.thanks__button {
+    display: inline-block;
+    background-color: #8b7969;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 2px;
+}

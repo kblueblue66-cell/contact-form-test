@@ -1,0 +1,130 @@
+/* 共通設定 */
+body {
+    font-family: "Open Sans", "Noto Sans JP", sans-serif;
+    color: #8b7969;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.header__logo {
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* コンテンツ全体 */
+.contact-form {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.contact-form__heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+/* フォームのレイアウト */
+.form__group {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: flex-start;
+}
+
+.form__group-title {
+    width: 30%;
+    padding-top: 10px;
+}
+
+.form__label--required {
+    color: #ffb6b6;
+    margin-left: 5px;
+}
+
+.form__group-content {
+    width: 70%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #f4f4f4;
+    color: #8b7969;
+    box-sizing: border-box;
+}
+
+
+.form__input--name,
+.form__input--tel {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.form__input--name input,
+.form__input--tel input {
+    flex: 1;
+}
+
+
+.form__input--radio {
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+}
+
+.form__input--radio label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+input[type="radio"] {
+    accent-color: #8b7969;
+}
+
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form__button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form__button-submit {
+    background-color: #8b7969;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form__button-submit:hover {
+    opacity: 0.8;
+}
+
+/* エラーメッセージ */
+.form__error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+    height: 20px;
+}

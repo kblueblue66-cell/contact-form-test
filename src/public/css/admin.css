@@ -1,0 +1,200 @@
+body {
+    font-family: serif;
+    color: #8b7969;
+    margin: 0;
+    background-color: #fff;
+}
+
+.header {
+    border-bottom: 1px solid #e0dfde;
+    padding: 20px 0;
+}
+
+.header__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.header__link {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: 1px solid #e0dfde;
+    padding: 5px 20px;
+    color: #8b7969;
+    cursor: pointer;
+}
+
+.admin__content {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 40px;
+}
+
+.admin__heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.admin__heading h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+/* 検索フォーム */
+.search-form {
+    margin-bottom: 30px;
+}
+
+.search-form__inner {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.search-form__item-input,
+.search-form__item-select,
+.search-form__item-select--category,
+.search-form__item-date {
+    padding: 10px;
+    border: 1px solid #e0dfde;
+    background-color: #f4f4f4;
+    color: #8b7969;
+}
+
+.search-form__item-input {
+    width: 250px;
+}
+
+.search-form__button-submit {
+    background-color: #8b7969;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.search-form__button-reset {
+    background-color: #d9c6b5;
+    /* 薄いベージュ */
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+/* パネルエリア */
+.admin-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.admin-panel__export {
+    background-color: #e0dfde;
+    border: none;
+    padding: 10px 20px;
+    color: #8b7969;
+    cursor: pointer;
+}
+
+/* テーブル */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table__header {
+    background-color: #8b7969;
+    color: #fff;
+    text-align: left;
+    padding: 15px 20px;
+    font-weight: normal;
+}
+
+.admin-table__row {
+    border-bottom: 1px solid #e0dfde;
+}
+
+.admin-table__text {
+    padding: 20px;
+}
+
+.admin-table__detail-btn {
+    background-color: #f4f4f4;
+    border: 1px solid #e0dfde;
+    color: #d9c6b5;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+/* モーダル全体の背景 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    /* 初期状態は非表示 */
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+/* 背景を暗くする */
+.modal-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* モーダルの中身 */
+.modal__inner {
+    position: relative;
+    background: #fff;
+    width: 80%;
+    max-width: 600px;
+    padding: 40px;
+    z-index: 101;
+}
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-decoration: none;
+    color: #8b7969;
+    font-size: 30px;
+}
+
+.delete-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.delete-form__button {
+    background-color: #ff4b4b;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+svg.w-5.h-5{
+    width: 50px;
+    height: 50px;
+}
